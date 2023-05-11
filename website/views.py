@@ -22,7 +22,7 @@ def home(request):
 		else:
 
 			# OpenAI Key
-			openai.api_key = "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"
+			openai.api_key = ""
 
 			# Create OpenAI Instance
 			openai.Model.list()
